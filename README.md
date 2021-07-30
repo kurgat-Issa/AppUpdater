@@ -13,7 +13,7 @@ repositories {
 And add the library to your module **build.gradle**:
 ```Gradle
 dependencies {
-    implementation 'com.github.GauthamAsir:AppUpdater:1.1'
+    implementation 'com.github.kurgat-Issa:AppUpdater:1.1'
 }
 ```
 
@@ -58,7 +58,7 @@ On Click of Notification it navigates to the Update Activity.
 It handles the changelogs also, which is the release description from Github
 ```Java
 Intent updateIntent = new Intent(getApplicationContext(),UpdateActivity.class);
-updateIntent.putExtra("username","GauthamAsir");
+updateIntent.putExtra("username","kurgat-Issa");
 updateIntent.putExtra("repoName","AppUpdater");
 startActivity(updateIntent);
 ```
