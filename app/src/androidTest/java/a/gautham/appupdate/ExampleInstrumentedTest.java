@@ -1,4 +1,4 @@
-package a.gautham.appupdate;
+package tech.luxi.appupdate;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("a.gautham.appupdate", appContext.getPackageName());
+        assertEquals("tech.luxi.appupdate", appContext.getPackageName());
     }
 }
