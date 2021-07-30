@@ -13,7 +13,7 @@ repositories {
 And add the library to your module **build.gradle**:
 ```Gradle
 dependencies {
-    implementation 'com.github.GauthamAsir:AppUpdater:1.1'
+    implementation 'com.github.kurgat-Issa:AppUpdater:1.1'
 }
 ```
 
