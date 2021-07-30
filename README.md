@@ -58,7 +58,7 @@ On Click of Notification it navigates to the Update Activity.
 It handles the changelogs also, which is the release description from Github
 ```Java
 Intent updateIntent = new Intent(getApplicationContext(),UpdateActivity.class);
-updateIntent.putExtra("username","GauthamAsir");
+updateIntent.putExtra("username","kurgat-Issa");
 updateIntent.putExtra("repoName","AppUpdater");
 startActivity(updateIntent);
 ```
